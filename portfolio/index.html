@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahamat Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;1,900&family=Source+Sans+Pro:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <p>&lt;M&gt;</p>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Mahamat Daoud</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Developer, front-end and back-end
+      </p>
+      <img
+        src="img/profile.jpeg"
+        alt="a picture of Mahamat Daoud"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Developer from front to back
+      </p>
+      <div class="about-me__body">
+        <p>
+          My name is Mahamat Daoud, I'm 21 years old. From 2015 to 2020 I was at
+          high shool. In 2016 I start drawing very day after shool. Then at end
+          of the year I start being passionate about game development. So start
+          programming journey using Unity3D and C#.
+        </p>
+        <p>
+          After one year using unity, I decide to go depeer on programming. So I
+          discover C, Java, Python, Php, Javascript, Css, Html and so on. Two
+          years later I decide to choose only four programming languages and
+          master them. So I choose Python, Javascript, Html and Css.
+        </p>
+      </div>
+      <img
+        src="img/profile.jpeg"
+        alt="a picture of Mahamat Daoud"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">Visit my works</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of projets
+      </p>
+
+      <div class="portfolio">
+        <a
+          href="https://admiring-turing-af119e.netlify.app/"
+          target="blank"
+          class="portfolio__item"
+        >
+          <img src="img/nexter.png" alt="Nexter" class="portfolio__img" />
+        </a>
+        <a
+          href="https://angry-liskov-b1deb0.netlify.app/"
+          target="blank"
+          class="portfolio__item"
+        >
+          <img
+            src="img/youtube.png"
+            alt="Modern youtube design"
+            class="portfolio__img"
+          />
+        </a>
+        <a
+          href="https://fervent-bhaskara-729d23.netlify.app/"
+          target="blank"
+          class="portfolio__item"
+        >
+          <img src="img/natours.png" alt="Natours" class="portfolio__img" />
+        </a>
+
+        <a
+          href="https://pedantic-keller-810f45.netlify.app/"
+          target="blank"
+          class="portfolio__item"
+        >
+          <img src="img/trillo.png" alt="Trillo" class="portfolio__img" />
+        </a>
+
+        <a
+          href="https://sad-lamport-c8c11a.netlify.app/"
+          target="blank"
+          class="portfolio__item"
+        >
+          <img src="img/travelly.png" alt="Travelly" class="portfolio__img" />
+        </a>
+
+        <a
+          href="https://distracted-lovelace-4be33e.netlify.app/"
+          target="blank"
+          class="portfolio__item"
+        >
+          <img src="img/budgetty.png" alt="Budgetty" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <a href="mailto:dmahamat11@gmail.com" class="footer__link"
+        >dmahamat11@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://github.com/Mahamat-Daoud"
+            target="blank"
+            class="social-list__link"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
